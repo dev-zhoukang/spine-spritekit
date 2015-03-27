@@ -1,0 +1,4 @@
+platform :ios, :deployment_target => "5.0"
+
+pod 'SpineSpriteKit', :path => '../'
+pod 'ObjectiveSpine', :path => '../../objective-spine'
