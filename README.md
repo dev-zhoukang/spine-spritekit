@@ -5,12 +5,19 @@ Unofficial iOS 7 SpriteKit Runtime for Spine 2D (http://esotericsoftware.com)
 
 Official runtimes are here: http://esotericsoftware.com/spine-runtimes
 
-I wrote a quick code for my own project that uses SpriteKit and Spine 2D at the same time. 
+Based on Simon Kim's quick code he wrote for his own project that uses SpriteKit and Spine 2D at the same time. 
 Though it does not fully support all the features of Spine 2D, it basically,
 - Places Bones and Skot Attachments on SKScene (SpriteKit Scene object)
 - Animates Bone Timelines using SKAction for translate, rotate, and scale sequences
 
-Until the official release of SpriteKit Runtime from esoteric software, hope it's a quick starter for your projects if you are considering use of Spine and SpriteKit at the same time.
+## Usage
+
+1. Install via [CocoaPods](http://cocoapods.org/)
+  
+  ```
+  pod 'SpineSpriteKit'
+  ```
+
 
 Feel free to fork and send pull requests!
 # Updates
