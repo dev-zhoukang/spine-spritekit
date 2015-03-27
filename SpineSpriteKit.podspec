@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/victoraldecoa/spine-spritekit.git', :tag => s.version.to_s }
   s.social_media_url = "https://twitter.com/victoraldecoa"
 
-  s.ios.deployment_target = '4.0'
-  s.osx.deployment_target = '10.6'
+  s.platform = :ios
+  s.ios.deployment_target = '6.0'
 
   s.requires_arc = true
 
