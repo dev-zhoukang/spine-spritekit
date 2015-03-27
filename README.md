@@ -31,18 +31,7 @@ Feel free to fork and send pull requests!
 ![iPad](https://raw.github.com/simonkim/spine-spritekit/43396b75aa283d6cc7fe6a2bfc9e53a7f6f375ee/Screenshots/iPad.png)
 ![iPhone](https://raw.github.com/simonkim/spine-spritekit/43396b75aa283d6cc7fe6a2bfc9e53a7f6f375ee/Screenshots/iPhone.png)
 
-# Building and running
-<blockquote>Don't forget to init and update submodule for spine-runtimes, which is the offcial runtimes, once you've cloned this project</blockquote>
-
-<pre>
-$ git clone https://github.com/simonkim/spine-spritekit
-
-$ git submodule init
-
-$ git submodule update
-</pre>
-
-## Open the demo project from Xcode 5
+## Open the demo project from Xcode 6
 - Located at Spine-Spritekit-Demo/Spine-Spritekit-Demo.xcodeproject
 - Build and run
 
