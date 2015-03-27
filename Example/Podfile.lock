@@ -1,19 +1,17 @@
 PODS:
   - ObjectiveSpine (1.0.0)
-  - SpineSpriteKit (1.0.0)
+  - SpineSpriteKit (1.0.0):
+    - ObjectiveSpine (~> 1.0.0)
 
 DEPENDENCIES:
-  - ObjectiveSpine (from `../../objective-spine`)
   - SpineSpriteKit (from `../`)
 
 EXTERNAL SOURCES:
-  ObjectiveSpine:
-    :path: ../../objective-spine
   SpineSpriteKit:
     :path: ../
 
 SPEC CHECKSUMS:
-  ObjectiveSpine: 4e51b2c39f9467cf48775ce1f473e76f58330a0a
-  SpineSpriteKit: 3fbcbab0698cf67872bc1076b54ac5d275b61459
+  ObjectiveSpine: d78489071cc9fb51afd5e80b97cc826c9c065004
+  SpineSpriteKit: 805513b4c3c86014a89631e6d727159ed19d9ce6
 
 COCOAPODS: 0.35.0
