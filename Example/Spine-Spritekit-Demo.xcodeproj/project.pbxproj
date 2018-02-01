@@ -13,7 +13,7 @@
 		836CFDAD1AC50E80003AE535 /* spineboy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 836CFDA71AC50E80003AE535 /* spineboy.atlas */; };
 		836CFDAE1AC50E80003AE535 /* spineboy.json in Resources */ = {isa = PBXBuildFile; fileRef = 836CFDA81AC50E80003AE535 /* spineboy.json */; };
 		836CFDAF1AC50E80003AE535 /* spineboy.png in Resources */ = {isa = PBXBuildFile; fileRef = 836CFDA91AC50E80003AE535 /* spineboy.png */; };
-		D10A1FF7E7A57D23BB25E1A4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF387C80890F326CA509DE /* libPods.a */; };
+		A0A8D78C63A40C1F80FBB7C8 /* libPods-Spine-Spritekit-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 499BF22217C7667AB67D92CC /* libPods-Spine-Spritekit-Demo.a */; };
 		F45213F8180A41D100D8BD26 /* goblinhead4spineboy.png in Resources */ = {isa = PBXBuildFile; fileRef = F45213F7180A41D100D8BD26 /* goblinhead4spineboy.png */; };
 		F4F8DA6E18080E1100F2C744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F8DA6D18080E1100F2C744 /* Foundation.framework */; };
 		F4F8DA7018080E1100F2C744 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F8DA6F18080E1100F2C744 /* CoreGraphics.framework */; };
@@ -45,15 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		541BB5BCDD6D44928B8E5131 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		6BDF387C80890F326CA509DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		217FC20ADAE3EDD33BAADAD3 /* Pods-Spine-Spritekit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spine-Spritekit-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spine-Spritekit-Demo/Pods-Spine-Spritekit-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		2F5CB1EC56A784EF067956B2 /* Pods-Spine-Spritekit-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spine-Spritekit-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spine-Spritekit-Demo/Pods-Spine-Spritekit-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		499BF22217C7667AB67D92CC /* libPods-Spine-Spritekit-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spine-Spritekit-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		836CFDA41AC50E80003AE535 /* goblins.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = goblins.atlas; path = "Spine-Spritekit-Demo/Resources/goblins.atlas"; sourceTree = SOURCE_ROOT; };
 		836CFDA51AC50E80003AE535 /* goblins.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = goblins.json; path = "Spine-Spritekit-Demo/Resources/goblins.json"; sourceTree = SOURCE_ROOT; };
 		836CFDA61AC50E80003AE535 /* goblins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goblins.png; path = "Spine-Spritekit-Demo/Resources/goblins.png"; sourceTree = SOURCE_ROOT; };
 		836CFDA71AC50E80003AE535 /* spineboy.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = spineboy.atlas; path = "Spine-Spritekit-Demo/Resources/spineboy.atlas"; sourceTree = SOURCE_ROOT; };
 		836CFDA81AC50E80003AE535 /* spineboy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = spineboy.json; path = "Spine-Spritekit-Demo/Resources/spineboy.json"; sourceTree = SOURCE_ROOT; };
 		836CFDA91AC50E80003AE535 /* spineboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spineboy.png; path = "Spine-Spritekit-Demo/Resources/spineboy.png"; sourceTree = SOURCE_ROOT; };
-		9EECBD3D75E685B3F069145C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F45213F7180A41D100D8BD26 /* goblinhead4spineboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblinhead4spineboy.png; sourceTree = "<group>"; };
 		F4F8DA6A18080E1100F2C744 /* Spine-Spritekit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spine-Spritekit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F8DA6D18080E1100F2C744 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,7 +88,7 @@
 				F4F8DA7218080E1100F2C744 /* UIKit.framework in Frameworks */,
 				F4F8DA7418080E1100F2C744 /* SpriteKit.framework in Frameworks */,
 				F4F8DA6E18080E1100F2C744 /* Foundation.framework in Frameworks */,
-				D10A1FF7E7A57D23BB25E1A4 /* libPods.a in Frameworks */,
+				A0A8D78C63A40C1F80FBB7C8 /* libPods-Spine-Spritekit-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,11 +105,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		411A795C866A35BF15959F91 /* Pods */ = {
+		3B56F53E4FF77C100CD10279 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				541BB5BCDD6D44928B8E5131 /* Pods.debug.xcconfig */,
-				9EECBD3D75E685B3F069145C /* Pods.release.xcconfig */,
+				2F5CB1EC56A784EF067956B2 /* Pods-Spine-Spritekit-Demo.debug.xcconfig */,
+				217FC20ADAE3EDD33BAADAD3 /* Pods-Spine-Spritekit-Demo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 				F4F8DA9C18080E1200F2C744 /* Spine-Spritekit-DemoTests */,
 				F4F8DA6C18080E1100F2C744 /* Frameworks */,
 				F4F8DA6B18080E1100F2C744 /* Products */,
-				411A795C866A35BF15959F91 /* Pods */,
+				3B56F53E4FF77C100CD10279 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,7 +152,7 @@
 				F4F8DA7118080E1100F2C744 /* UIKit.framework */,
 				F4F8DA7318080E1100F2C744 /* SpriteKit.framework */,
 				F4F8DA9618080E1200F2C744 /* XCTest.framework */,
-				6BDF387C80890F326CA509DE /* libPods.a */,
+				499BF22217C7667AB67D92CC /* libPods-Spine-Spritekit-Demo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,11 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4F8DAA618080E1200F2C744 /* Build configuration list for PBXNativeTarget "Spine-Spritekit-Demo" */;
 			buildPhases = (
-				D6A74BF9EB4C71DBBF605955 /* Check Pods Manifest.lock */,
+				DF183D462623A1A20729D327 /* [CP] Check Pods Manifest.lock */,
 				F4F8DA6618080E1100F2C744 /* Sources */,
 				F4F8DA6718080E1100F2C744 /* Frameworks */,
 				F4F8DA6818080E1100F2C744 /* Resources */,
-				D9BF35D01F99883CB0088411 /* Copy Pods Resources */,
+				80842ACEAFEBF478BEBE9CA2 /* [CP] Embed Pods Frameworks */,
+				DAEA935519F8892165AA7A68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +267,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = DZPub.com;
 				TargetAttributes = {
+					F4F8DA6918080E1100F2C744 = {
+						DevelopmentTeam = TE2958KSXV;
+					};
 					F4F8DA9418080E1200F2C744 = {
 						TestTargetID = F4F8DA6918080E1100F2C744;
 					};
@@ -321,34 +325,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D6A74BF9EB4C71DBBF605955 /* Check Pods Manifest.lock */ = {
+		80842ACEAFEBF478BEBE9CA2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spine-Spritekit-Demo/Pods-Spine-Spritekit-Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D9BF35D01F99883CB0088411 /* Copy Pods Resources */ = {
+		DAEA935519F8892165AA7A68 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spine-Spritekit-Demo/Pods-Spine-Spritekit-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF183D462623A1A20729D327 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spine-Spritekit-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,11 +516,12 @@
 		};
 		F4F8DAA718080E1200F2C744 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 541BB5BCDD6D44928B8E5131 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 2F5CB1EC56A784EF067956B2 /* Pods-Spine-Spritekit-Demo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TE2958KSXV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spine-Spritekit-Demo/Spine-Spritekit-Demo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -516,11 +539,12 @@
 		};
 		F4F8DAA818080E1200F2C744 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EECBD3D75E685B3F069145C /* Pods.release.xcconfig */;
+			baseConfigurationReference = 217FC20ADAE3EDD33BAADAD3 /* Pods-Spine-Spritekit-Demo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TE2958KSXV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spine-Spritekit-Demo/Spine-Spritekit-Demo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (

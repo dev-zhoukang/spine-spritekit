@@ -1,3 +1,5 @@
-platform :ios, '6.0'
 
-pod 'SpineSpriteKit', :path => '../'
+platform :ios, '7.0'
+target 'Spine-Spritekit-Demo' do
+pod 'SpineSpriteKit'
+end
